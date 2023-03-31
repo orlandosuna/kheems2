@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_cheems"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/opcion1"
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/opcion2"
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/opcion3"
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            android:layout_weight="1" />
+    </LinearLayout> 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/opcion4"
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/opcion5"
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/opcion6"
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/opcion7"
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/opcion8"
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/opcion9"
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/opcion10"
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/opcion11"
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/opcion12"
+            android:layout_width="match_parent"
+            android:layout_height="100dip"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnReiniciar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reiniciar" />
+</LinearLayout>

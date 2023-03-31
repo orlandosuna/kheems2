@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Kheems</string>
+    <string name="texto_reiniciar">Reiniciar</string>
+    <string name="texto_resultados">Resultados</string>
+</resources>
